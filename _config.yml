@@ -1,0 +1,23 @@
+# Site
+title: Lina Lopes
+subtitle: um artista apaixonada por tecnologia
+
+# URL
+url: http://www.linalopes.info
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4445
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
